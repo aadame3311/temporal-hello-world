@@ -9,6 +9,12 @@ Temporal UI 2.28.0
 
 ## Commands
 
+You will need to have 3 terminals open simultaneously to simulate
+
+1. Temporal Server
+2. Client Server 1
+3. A different client server executing asynchronous actions
+
 Terminal 1: Start Temporal Dev Server
 
 ```
