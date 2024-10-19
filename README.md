@@ -2,10 +2,10 @@
 
 ## Requirements
 
-Node v 18.x
-Temporal 0.13.2
-Temporal Server 1.24.1
-Temporal UI 2.28.0
+- Node v 18.x
+- Temporal 0.13.2
+- Temporal Server 1.24.1
+- Temporal UI 2.28.0
 
 ## Commands
 
