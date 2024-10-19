@@ -9,20 +9,20 @@ Temporal UI 2.28.0
 
 ## Commands
 
-Start Temporal Dev Server
+Terminal 1: Start Temporal Dev Server
 
 ```
 temporal server start-dev
 npm run start.watch
 ```
 
-Start Workflow
+Terminal 2: Start Workflow
 
 ```
 npm run workflow
 ```
 
-Order Food
+Terminal 3: Order Food (While workflow task is running)
 
 ```
 npm run order-food
