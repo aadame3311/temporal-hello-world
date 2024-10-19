@@ -1,18 +1,29 @@
-# Hello World
+# Temporal Hello World Example
 
-This is the default project that is scaffolded out when you run `npx @temporalio/create@latest ./myfolder`.
+## Requirements
 
-The [Hello World Tutorial](https://learn.temporal.io/getting_started/typescript/hello_world_in_typescript/) walks through the code in this sample.
+Node v 18.x
+Temporal 0.13.2
+Temporal Server 1.24.1
+Temporal UI 2.28.0
 
-### Running this sample
+## Commands
 
-1. `temporal server start-dev` to start [Temporal Server](https://github.com/temporalio/cli/#installation).
-1. `npm install` to install dependencies.
-1. `npm run start.watch` to start the Worker.
-1. In another shell, `npm run workflow` to run the Workflow Client.
+Start Temporal Dev Server
 
-The Workflow should return:
+```
+temporal server start-dev
+npm run start.watch
+```
 
-```bash
-Hello, Temporal!
+Start Workflow
+
+```
+npm run workflow
+```
+
+Order Food
+
+```
+npm run order-food
 ```
